@@ -11,5 +11,10 @@ namespace LearnGitinConsoleapplication
             Console.ReadLine();
         }
 
+        public string saymyname(string name)
+        {
+            return $"my name is {name}";
+        }
+
     }
 }
